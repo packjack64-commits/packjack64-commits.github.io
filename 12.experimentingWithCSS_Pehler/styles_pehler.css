@@ -1,0 +1,27 @@
+/* Full-page background image styling with upper part focus */
+.full-page-image {
+    background-image: url('images/IMG_2214.JPG'); /* Path to the image */
+    background-size: cover; /* Ensure the image covers the entire screen */
+    background-position: top; /* Show more of the upper part of the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    position: relative;
+}
+
+/* Overlay text box styling */
+.overlay-text {
+    position: absolute;
+    font-size: 40px;
+    color: #FFA3A4;
+    left: 177px;
+    top: 162px;
+    margin-left: 76px;
+    margin-top: 30px;
+    padding-left: 61px;
+    padding-top: 64px;
+    border-top-left-radius: 214px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 109px;
+    background-color: #FF0004;
+}
