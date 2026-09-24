@@ -1,0 +1,21 @@
+.viewer {
+    position: relative;  /* important: anchors the absolute-positioned children */
+    height: 100vh;
+    width: 100vw;
+}
+
+/* The image: covers the entire viewer */
+.viewer img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  /* fill without distortion; may crop */
+}
+
+/* The caption: sits at the bottom, readable over the image */
+.viewer .description {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
